@@ -1,0 +1,150 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto; 
+    background-color: rgb(240,239,231);
+    font-family: "Josefin Sans", sans-serif; 
+}
+
+.header{
+    height: 3rem;
+    width: 100%;
+    padding-top: 2rem;
+    word-spacing: 5rem;
+    display: flex;
+    border-bottom: 2px solid rgb(212,211,205);
+}
+
+.headersides{
+    text-decoration: none;
+    text-align: center;
+    word-spacing: 8rem;
+    width: 33%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#headercenter{
+    word-spacing: 1rem;
+}
+
+.body{
+    width: 80%;
+    margin-top: 1rem;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    width: 90%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: lighter; 
+    line-height: 1.8rem;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    width: 100%;
+    
+
+}
+.content{
+    display: flex;
+    width: 80%;
+}
+.shop-body{
+    width:90%;  
+    display: flex;
+    border: 2px solid black;
+}
+.about-body{
+    margin: 0;
+    width:50%;  
+}
+
+.location-body{
+    text-align: center; 
+}
+
+.terms-body{
+    width:50%; 
+
+}
+.row_one{
+    display: flex;
+}
+
+#contact{
+    height: 30%;
+    width: 100%;
+    float: center;
+    text-align: left;
+    letter-spacing: .05rem;
+    font-weight: 100;
+    color: rgb(57,56,55);
+}
+#footer{
+    width: 90%;
+    display: flex;
+    letter-spacing: .1rem;
+}
+#HorizontalList__Item{
+    height: 100px;
+    width: 100%;
+}
+a{
+    width: 100px;
+}
+#footer_thirds{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.fields{
+    width: 80%;
+    height: 40px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    background-color: rgb(248,247,240);
+    border: 1px solid rgb(208,207,200);
+}
+
+.btn {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: 80%;
+    height: 2.5rem;
+}
+
+.cart-btn{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: 20%;
+    height: 2.5rem;
+}

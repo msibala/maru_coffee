@@ -1,0 +1,136 @@
+*
+{
+    margin: 0px auto;
+    padding: 0px auto; 
+   
+}
+#container{
+    width: 100%;
+    background-color: rgb(240,239,231);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: lighter;
+   
+}
+#header{
+    height: 3rem;
+    width: 100%;
+    padding-top: 2rem;
+    word-spacing: 5rem;
+    display: flex;
+    border-bottom: 2px solid rgb(212,211,205);
+}
+#headersides{
+    text-decoration: none;
+}
+#headersides{
+    text-decoration: none;
+    word-spacing: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    padding-top: 16px;
+}
+#headercenter{
+    word-spacing: 1rem;
+ 
+
+}
+h1{
+    padding-top: 16px;
+}
+#header2{
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+   
+}
+#body{
+    padding-top: 6rem;
+    height: 26%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+ 
+
+}
+.fields{
+    height: 40px;
+    width: 100%;
+
+
+}
+.btn {
+    background-color: black; 
+    border: none;
+    color: white;
+    width: 392px;
+    height: 43px;
+
+}
+#footer{
+    padding-top: 4rem;
+    height: 341px;
+    width: 100%;
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+
+#footer_left{
+    height: 305px;
+    width: 40%;
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+    font-size: 15px;
+    
+} 
+#social{
+    width: 100px;
+    height: 100px;
+}
+.Icon--facebook{
+    height: 200px;
+    width: 200px;
+}
+.Icon--instagram{
+    height: 200px;
+    width: 300px;
+}
+#footer_center{
+    height: 305px;
+    width: 30%;
+    /* border: 2px dashed red; */
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+#footer_right{
+    height: 305px;
+    width: 25%;
+    /* border: 2px solid green; */
+    font-size: 15px;
+    padding-top: 20px;
+}
+.fields{
+    width: 250px;
+    height: 35px;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid rgb(208,207,200);
+}
+
+.btn {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+
+}

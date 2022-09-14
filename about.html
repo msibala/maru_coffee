@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- {% load static %} -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'maru_app/css/about.css' %}"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+        </style>
+    <title>ABOUT</title>
+</head>
+<body>
+    <div class="header">
+        <div class="headersides">
+            <a href="/">SHOP</a>
+            <a href="/about">ABOUT</a>
+        </div>
+        <div id="headercenter">
+            <H2>MARU COFFEE</H2>
+        </div>
+        <div class="headersides">
+            <!-- <form action='/account' method="Post"> -->
+            <a href="/locations">LOCATIONS</a>
+            <a href="/cart">CART</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title"><h1>ABOUT</h1><div>
+        <div class="halves">
+            <div class="bodycolumn">
+                <br><br>
+                <p>Born from a love of process and everyday qualtiy, 
+                we are inspired by all things analog and the simplicity of good coffee. We believe that quality does not have to be austere and that tradition can be respected as well as re-imagined. Maru is made with intention, balance and a love for the ritual of a well-made coffee.
+                <br><br>
+                <h3>TEAM</h3>
+                <p>ROY ROBERTSON - Los Feliz Manager
+                <p>ISSAC MASON - Head Roaster
+                <p>MATTEO ROBERTS - General Manager
+                <p>KYU HO CHOI - Head Trainer
+            </div>
+            <div class="bodycolumn"> 
+                <!-- {% load static %}
+                <img src="{% static 'maru_app/images/about_photo.png'%}" alt="My Image"> --> 
+                <img src="images/about_photo.png" alt="coffee cup">
+            </div> 
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+        </style>
+    <div id="footer_thirds">
+        <h3>SOCIAL</h3>
+        <p><a href="www.facebook.com">Facebook</a>
+        <p><a href="www.instagram.com">Instagram</a>
+    </div>
+    <div id="footer_thirds">
+        <h3>CONNECT</h3>
+        <p><a href="www.facebook.com">Terms and Conditions</a>
+        <p><a href="www.facebook.com">Shipping and Return Policy</a>
+        <p><a href="www.facebook.com">Contact</a>
+    </div>
+    <div id="footer_thirds">
+        <h3>NEWSLETTER</h3>
+        <p>Subscribe to recieve updates and more.
+        <input class="fields" type="text" name="email" value="Enter your email address"></p>
+        <br>
+        <input class="btn" type="submit" value="SUBSCRIBE">
+    </div>
+</div>
+</body>
+</html>

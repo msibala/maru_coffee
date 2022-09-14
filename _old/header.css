@@ -1,0 +1,23 @@
+#header{
+    height: 3rem;
+    width: 100%;
+    padding-top: 2rem;
+    word-spacing: 5rem;
+    display: flex;
+    border-bottom: 2px solid rgb(212,211,205);
+}
+#headersides{
+    text-decoration: none;
+}
+#headersides{
+    text-decoration: none;
+    word-spacing: 30px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+#headercenter{
+    word-spacing: 1rem;
+
+}
